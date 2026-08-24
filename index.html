@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Adarsh Packers & Movers | Reliable Moving Services</title>
+
+<meta name="description" content="Adarsh Packers & Movers - Home shifting, office shifting, packing, loading, unloading and transportation services across India.">
+
+<style>
+:root{
+  --primary:#ff6b00;
+  --dark:#111827;
+  --blue:#0f3d91;
+  --light:#f7f9fc;
+  --text:#263238;
+  --white:#fff;
+  --shadow:0 12px 35px rgba(0,0,0,.10);
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--text);
+  background:var(--light);
+  line-height:1.6;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.container{
+  width:min(1120px,92%);
+  margin:auto;
+}
+
+/* HEADER */
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1000;
+  background:rgba(255,255,255,.96);
+  box-shadow:0 3px 18px rgba(0,0,0,.08);
+}
+
+.nav{
+  height:72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:800;
+  color:var(--blue);
+}
+
+.logo span{
+  color:var(--primary);
+}
+
+nav a{
+  margin-left:24px;
+  font-weight:700;
+  font-size:14px;
+}
+
+nav a:hover{
+  color:var(--primary);
+}
+
+.menu{
+  display:none;
+  font-size:28px;
+}
+
+/* HERO */
+.hero{
+  padding:145px 0 85px;
+  background:linear-gradient(135deg,#0b2d68,#1557bd);
+  color:white;
+  position:relative;
+  overflow:hidden;
+}
+
+.hero:after{
+  content:"";
+  position:absolute;
+  width:420px;
+  height:420px;
+  border-radius:50%;
+  background:rgba(255,107,0,.18);
+  right:-120px;
+  top:-120px;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:40px;
+  align-items:center;
+  position:relative;
+  z-index:1;
+}
+
+.badge{
+  display:inline-block;
+  background:rgba(255,255,255,.14);
+  padding:7px 14px;
+  border-radius:30px;
+  margin-bottom:18px;
+  font-weight:700;
+}
+
+h1{
+  font-size:clamp(38px,6vw,64px);
+  line-height:1.08;
+  margin-bottom:20px;
+}
+
+.hero p{
+  font-size:19px;
+  opacity:.92;
+  margin-bottom:28px;
+}
+
+.buttons{
+  display:flex;
+  gap:13px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  display:inline-block;
+  padding:13px 21px;
+  border-radius:10px;
+  font-weight:800;
+}
+
+.btn-primary{
+  background:var(--primary);
+  color:white;
+}
+
+.btn-light{
+  background:white;
+  color:var(--blue);
+}
+
+.hero-card{
+  background:white;
+  border-radius:24px;
+  padding:12px;
+  box-shadow:var(--shadow);
+  transform:rotate(1deg);
+}
+
+.hero-card img{
+  width:100%;
+  height:330px;
+  object-fit:cover;
+  border-radius:18px;
+}
+
+/* SECTIONS */
+section{
+  padding:80px 0;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:42px;
+}
+
+.title h2{
+  font-size:36px;
+  color:var(--dark);
+  margin-bottom:8px;
+}
+
+.title p{
+  color:#667085;
+}
+
+/* SERVICES */
+.services{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:18px;
+}
+
+.card{
+  background:white;
+  padding:27px 18px;
+  border-radius:18px;
+  box-shadow:var(--shadow);
+  text-align:center;
+  transition:.25s;
+}
+
+.card:hover{
+  transform:translateY(-7px);
+}
+
+.icon{
+  font-size:42px;
+  margin-bottom:12px;
+}
+
+.card h3{
+  font-size:18px;
+  margin-bottom:7px;
+  color:var(--dark);
+}
+
+/* ABOUT */
+.about{
+  background:white;
+}
+
+.about-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:45px;
+  align-items:center;
+}
+
+.about-img{
+  width:100%;
+  height:390px;
+  object-fit:cover;
+  border-radius:25px;
+  box-shadow:var(--shadow);
+}
+
+.about h2{
+  font-size:38px;
+  color:var(--dark);
+  margin-bottom:16px;
+}
+
+.points{
+  margin-top:22px;
+  display:grid;
+  gap:12px;
+}
+
+.points div{
+  font-weight:700;
+}
+
+/* GALLERY */
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+
+.gallery img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:16px;
+  box-shadow:var(--shadow);
+}
+
+/* CTA */
+.cta{
+  background:linear-gradient(135deg,#ff6b00,#ff8a28);
+  color:white;
+  text-align:center;
+}
+
+.cta h2{
+  font-size:38px;
+  margin-bottom:12px;
+}
+
+.cta p{
+  max-width:780px;
+  margin:0 auto 25px;
+  font-size:18px;
+}
+
+/* CONTACT */
+.contact-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:25px;
+}
+
+.contact-card{
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:var(--shadow);
+}
+
+.contact-card h3{
+  font-size:24px;
+  margin-bottom:15px;
+}
+
+.contact-item{
+  padding:13px 0;
+  border-bottom:1px solid #eee;
+}
+
+/* QUOTE */
+.quote{
+  background:linear-gradient(135deg,#091f4a,#153e86);
+  color:white;
+  padding:65px 25px;
+  text-align:center;
+}
+
+.quote-inner{
+  max-width:900px;
+  margin:auto;
+}
+
+.quote .mark{
+  font-size:60px;
+  line-height:.7;
+  color:#ff9a4d;
+}
+
+.quote h2{
+  font-size:32px;
+  margin:18px 0;
+}
+
+.quote p{
+  font-size:18px;
+  opacity:.94;
+}
+
+/* FOOTER */
+footer{
+  background:#0b1220;
+  color:#cbd5e1;
+  padding:28px 0;
+  text-align:center;
+}
+
+footer strong{
+  color:white;
+}
+
+/* FLOATING BUTTONS */
+.float{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  z-index:999;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.float a{
+  width:52px;
+  height:52px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  color:white;
+  font-size:24px;
+  box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+.call{
+  background:#1565c0;
+}
+
+.wa{
+  background:#20c467;
+}
+
+/* STATS */
+:root{
+  --gold:#ffb300;
+  --green:#19a463;
+}
+
+.statbar{
+  background:#fff;
+  box-shadow:0 8px 25px rgba(0,0,0,.08);
+  margin-top:-28px;
+  position:relative;
+  z-index:5;
+  border-radius:18px;
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  padding:22px;
+}
+
+.stat{
+  text-align:center;
+  border-right:1px solid #eee;
+}
+
+.stat:last-child{
+  border:0;
+}
+
+.stat b{
+  display:block;
+  font-size:28px;
+  color:#0f3d91;
+}
+
+.stat span{
+  font-size:13px;
+  color:#667085;
+}
+
+/* WHY */
+.why{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.why .card{
+  text-align:left;
+}
+
+/* REVIEWS */
+.review-wrap{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.review{
+  background:#fff;
+  padding:25px;
+  border-radius:18px;
+  box-shadow:var(--shadow);
+}
+
+.stars{
+  color:#ff9800;
+  font-size:20px;
+}
+
+.review strong{
+  display:block;
+  margin-top:15px;
+}
+
+/* FORM */
+.form{
+  background:#fff;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:var(--shadow);
+  max-width:900px;
+  margin:auto;
+}
+
+.form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+}
+
+.form input,
+.form select,
+.form textarea{
+  width:100%;
+  padding:13px;
+  border:1px solid #d9dee7;
+  border-radius:9px;
+  font:inherit;
+}
+
+.form textarea{
+  min-height:120px;
+  resize:vertical;
+}
+
+.form .full{
+  grid-column:1/-1;
+}
+
+.form button{
+  border:0;
+  cursor:pointer;
+  font:inherit;
+}
+
+/* FAQ */
+.faq{
+  max-width:900px;
+  margin:auto;
+}
+
+.faq details{
+  background:#fff;
+  margin:10px 0;
+  padding:18px 20px;
+  border-radius:12px;
+  box-shadow:0 4px 15px rgba(0,0,0,.06);
+}
+
+.faq summary{
+  font-weight:800;
+  cursor:pointer;
+}
+
+/* SOCIAL */
+.social{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:18px;
+}
+
+.social a{
+  padding:9px 15px;
+  background:#eef3fb;
+  border-radius:8px;
+  font-weight:700;
+}
+
+/* TRUST */
+.trust{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  flex-wrap:wrap;
+  margin-top:25px;
+}
+
+.trust span{
+  background:rgba(255,255,255,.14);
+  padding:8px 13px;
+  border-radius:20px;
+}
+
+/* RESPONSIVE */
+@media(max-width:850px){
+
+  nav{
+    display:none;
+  }
+
+  .menu{
+    display:block;
+  }
+
+  .hero-grid,
+  .about-grid,
+  .contact-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero{
+    padding-top:120px;
+  }
+
+  .hero-card{
+    order:-1;
+  }
+
+  .services{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .gallery{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .stats,
+  .why,
+  .review-wrap{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .stat:nth-child(2){
+    border-right:0;
+  }
+
+  .stat{
+    margin:5px 0;
+  }
+}
+
+@media(max-width:520px){
+
+  .services,
+  .gallery,
+  .stats,
+  .why,
+  .review-wrap,
+  .form-grid{
+    grid-template-columns:1fr;
+  }
+
+  section{
+    padding:60px 0;
+  }
+
+  .hero-card img{
+    height:250px;
+  }
+
+  .nav{
+    height:64px;
+  }
+
+  .logo{
+    font-size:18px;
+  }
+
+  .stat{
+    border-right:0;
+    border-bottom:1px solid #eee;
+    padding:10px;
+  }
+
+  .form .full{
+    grid-column:auto;
+  }
+}
+
+.date-field{
+  position:relative;
+  width:100%;
+}
+
+.date-field input{
+  width:100%;
+  min-height:48px;
+  padding:13px;
+  border:1px solid #d9dee7;
+  border-radius:9px;
+  font:inherit;
+  background:#fff;
+  color:#263238;
+  position:relative;
+  z-index:2;
+}
+
+/* जब date select नहीं हुई हो */
+.date-field input:not(:valid){
+  color:transparent;
+}
+
+/* Placeholder */
+.date-placeholder{
+  position:absolute;
+  left:13px;
+  top:50%;
+  transform:translateY(-50%);
+  color:#777;
+  pointer-events:none;
+  z-index:3;
+}
+
+/* Date select होने के बाद placeholder छुप जाएगा */
+.date-field input:valid + .date-placeholder{
+  display:none;
+}
+
+/* OWNER PHOTO */
+.owner-pic{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  overflow:hidden;
+  margin-left:15px;
+  flex-shrink:0;
+}
+
+.owner-pic img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+
+  <div class="container nav">
+
+    <a class="logo" href="#home">
+      ADARSH <span>PACKERS & MOVERS</span>
+    </a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+     <div class="owner-pic">
+      <img src="owner.png" alt="Owner">
+    </div>
+    <div class="menu">☰</div>
+
+  </div>
+
+</header>
+
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+  <div class="container hero-grid">
+
+    <div>
+
+      <span class="badge">
+        🚚 Moving Across India
+      </span>
+
+      <h1>
+        Move Smart.<br>
+        <span style="color:#ff9a4d">
+          Move Safely.
+        </span>
+      </h1>
+
+      <p>
+        Professional Packers & Movers for home, office and commercial
+        shifting — with safe handling, affordable pricing and reliable service.
+      </p>
+
+      <div class="buttons">
+
+        <a class="btn btn-primary" href="#quote-form">
+          Get Free Quote
+        </a>
+
+        <a class="btn btn-light" href="#services">
+          View Services
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+      <img
+        src="visiting card front.png"
+        alt="Adarsh Packers and Movers Professional Moving Service"
+      >
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- STATS -->
+<div class="container statbar">
+
+  <div class="stats">
+
+    <div class="stat">
+      <b>100%</b>
+      <span>Customer Focused</span>
+    </div>
+
+    <div class="stat">
+      <b>24×7</b>
+      <span>Enquiry Support</span>
+    </div>
+
+    <div class="stat">
+      <b>All India</b>
+      <span>Service Coverage</span>
+    </div>
+
+    <div class="stat">
+      <b>Best Value</b>
+      <span>Affordable Pricing</span>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- SERVICES -->
+<section id="services">
+
+  <div class="container">
+
+    <div class="title">
+
+      <h2>Our Services</h2>
+
+      <p>
+        Complete moving solutions under one roof
+      </p>
+
+    </div>
+
+
+    <div class="services">
+
+      <div class="card">
+        <div class="icon">🏠</div>
+        <h3>Home Shifting</h3>
+        <p>
+          Safe and careful household relocation.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">🏢</div>
+        <h3>Office Shifting</h3>
+        <p>
+          Organized commercial & office moves.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">📦</div>
+        <h3>Packing</h3>
+        <p>
+          Professional packing for your valuables.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">🚚</div>
+        <h3>Loading & Unloading</h3>
+        <p>
+          Careful handling from start to finish.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">🚛</div>
+        <h3>Transportation</h3>
+        <p>
+          Local & domestic transportation across India.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- WHY CHOOSE -->
+<section>
+
+  <div class="container">
+
+    <div class="title">
+
+      <h2>Why Choose Adarsh?</h2>
+
+      <p>
+        We focus on safety, service and customer satisfaction.
+      </p>
+
+    </div>
+
+
+    <div class="why">
+
+      <div class="card">
+        <div class="icon">🛡️</div>
+        <h3>Safe & Careful Handling</h3>
+        <p>
+          Your household and office belongings are handled with care.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">💰</div>
+        <h3>Affordable Pricing</h3>
+        <p>
+          Quality moving services at competitive and transparent prices.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">⏱️</div>
+        <h3>Timely Service</h3>
+        <p>
+          We value your time and plan pickup and delivery responsibly.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">👷</div>
+        <h3>Professional Team</h3>
+        <p>
+          Trained and responsible staff for packing, loading and unloading.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">🚛</div>
+        <h3>Complete Solution</h3>
+        <p>
+          From packing to transportation and unloading, one team can handle it.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">❤️</div>
+        <h3>Customer Satisfaction</h3>
+        <p>
+          Our goal is a smooth move and a happy customer.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="about" id="about">
+
+  <div class="container about-grid">
+
+    <img
+      class="about-img"
+      src="Adv.png"
+      alt="Adarsh Packers and Movers Packing Service"
+    >
+
+
+    <div>
+
+      <h2>Moving Made Easy</h2>
+
+      <p>
+        At <strong>Adarsh Packers & Movers</strong>,
+        we understand that shifting is more than moving boxes.
+        It is moving memories, belongings and dreams.
+      </p>
+
+
+      <div class="points">
+
+        <div>
+          ✅ Affordable & transparent pricing
+        </div>
+
+        <div>
+          ✅ Safe packing & careful handling
+        </div>
+
+        <div>
+          ✅ Timely pickup & delivery
+        </div>
+
+        <div>
+          ✅ Customer-focused service
+        </div>
+
+        <div>
+          ✅ Services available across India
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- GALLERY -->
+<section id="gallery">
+
+  <div class="container">
+
+    <div class="title">
+
+      <h2>Our Work Gallery</h2>
+
+      <p>
+        Please take a look at our services.
+        We work across India with reliable, affordable and secure service.
+      </p>
+
+    </div>
+
+
+    <div class="gallery">
+
+      <img
+        src="images1.jpeg"
+        alt="Adarsh Packers Packing Work"
+      >
+
+      <img
+        src="images2.jpeg"
+        alt="Moving Boxes"
+      >
+
+      <img
+        src="images3.jpeg"
+        alt="Moving Truck"
+      >
+
+      <img
+        src="images4.jpeg"
+        alt="Household Packing"
+      >
+
+      <img
+        src="images5.jpeg"
+        alt="Furniture Moving"
+      >
+
+      <img
+        src="images6.jpeg"
+        alt="Delivery Service"
+      >
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CTA -->
+<section class="cta">
+
+  <div class="container">
+
+    <h2>
+      Planning to Shift?
+    </h2>
+
+    <p>
+      Let Adarsh Packers & Movers take care of the hard work.
+      Get in touch today for an affordable moving solution.
+    </p>
+
+    <a
+      class="btn btn-light"
+      href="#quote-form"
+    >
+      Contact Us Today
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- QUOTE FORM -->
+<section id="quote-form">
+
+  <div class="container">
+
+    <div class="title">
+
+      <h2>
+        Get a Free Moving Quote
+      </h2>
+
+      <p>
+        Tell us about your move.
+        Your enquiry will be sent directly to our WhatsApp.
+      </p>
+
+    </div>
+
+
+    <div class="form">
+
+      <form onsubmit="sendQuote(event)">
+
+        <div class="form-grid">
+
+
+          <!-- NAME -->
+          <input
+            id="qname"
+            type="text"
+            placeholder="Your Name"
+            required
+          >
+
+
+          <!-- PHONE -->
+          <input
+            id="qphone"
+            type="tel"
+            placeholder="Mobile Number"
+            required
+          >
+
+
+          <!-- FROM -->
+          <input
+            id="qfrom"
+            type="text"
+            placeholder="Moving From"
+            required
+          >
+
+
+          <!-- TO -->
+          <input
+            id="qto"
+            type="text"
+            placeholder="Moving To"
+            required
+          >
+
+
+          <!-- SERVICE -->
+          <select
+            id="qservice"
+            required
+          >
+
+            <option value="">
+              Select Service
+            </option>
+
+            <option value="Home Shifting">
+              🏠 Home Shifting
+            </option>
+
+            <option value="Office & Commercial Shifting">
+              🏢 Office & Commercial Shifting
+            </option>
+
+            <option value="Packing & Unpacking">
+              📦 Packing & Unpacking
+            </option>
+
+            <option value="Loading & Unloading">
+              🚚 Loading & Unloading
+            </option>
+
+            <option value="Local & Domestic Transportation">
+              🚛 Local & Domestic Transportation
+            </option>
+
+          </select>
+
+
+          <!-- DATE -->
+        <div class="date-field">
+
+  <input
+    id="qdate"
+    type="date"
+    required
+    aria-label="Select Moving Date"
+  >
+
+  <span class="date-placeholder">
+    📅 Select Moving Date
+  </span>
+
+</div>
+
+
+          <!-- DETAILS -->
+          <textarea
+            id="qdetails"
+            class="full"
+            placeholder="Tell us about your requirements..."
+            required
+          ></textarea>
+
+
+          <!-- BUTTON -->
+          <div class="full">
+
+            <button
+              class="btn btn-primary"
+              type="submit"
+            >
+              📲 Send Enquiry on WhatsApp
+            </button>
+
+          </div>
+
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+
+  <div class="container">
+
+    <div class="title">
+
+      <h2>
+        Contact Adarsh Packers & Movers
+      </h2>
+
+      <p>
+        Call or WhatsApp us for a quick quotation
+      </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+
+      <div class="contact-card">
+
+        <h3>
+          📞 Get In Touch
+        </h3>
+
+
+        <div class="contact-item">
+
+          <strong>Call:</strong>
+
+          <a href="tel:+918299354507">
+            +91 82993 54507
+          </a>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <strong>WhatsApp:</strong>
+
+          <a
+            href="https://wa.me/918299354507"
+            target="_blank"
+          >
+            Chat on WhatsApp
+          </a>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <strong>Alternate:</strong>
+
+          <a href="tel:+919795441149">
+            +91 97954 41149
+          </a>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <strong>Service:</strong>
+          Local & Domestic — Across India
+
+        </div>
+
+      </div>
+
+
+      <div class="contact-card">
+
+        <h3>
+          📍 Service Areas
+        </h3>
+
+        <p>
+          We provide professional moving, packing,
+          loading, unloading and transportation services
+          for residential and commercial customers.
+        </p>
+
+        <br>
+
+        <strong>
+          Adarsh Packers & Movers
+        </strong>
+
+        <br>
+
+        Reliable service.
+        Affordable prices.
+        Happy customers.
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- REVIEWS -->
+<section>
+
+  <div class="container">
+
+    <div class="title">
+
+      <h2>
+        What Our Customers Say
+      </h2>
+
+      <p>
+        Your real customer reviews can be added here.
+      </p>
+
+    </div>
+
+
+    <div class="review-wrap">
+
+
+      <div class="review">
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <p>
+          “Excellent service and careful handling.
+          Very smooth shifting experience.”
+        </p>
+
+        <strong>
+          — Happy Customer
+        </strong>
+
+      </div>
+
+
+      <div class="review">
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <p>
+          “Packing and loading was done professionally.
+          Good value for money.”
+        </p>
+
+        <strong>
+          — Happy Customer
+        </strong>
+
+      </div>
+
+
+      <div class="review">
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <p>
+          “The team was polite, helpful and punctual.
+          Recommended.”
+        </p>
+
+        <strong>
+          — Happy Customer
+        </strong>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FAQ -->
+<section>
+
+  <div class="container">
+
+    <div class="title">
+
+      <h2>
+        Frequently Asked Questions
+      </h2>
+
+    </div>
+
+
+    <div class="faq">
+
+
+      <details>
+
+        <summary>
+          Do you provide home shifting services?
+        </summary>
+
+        <p>
+          Yes, we provide home shifting and household
+          goods transportation services.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Do you provide packing and unpacking?
+        </summary>
+
+        <p>
+          Yes. Professional packing and unpacking can
+          be arranged according to your requirement.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Do you provide office shifting?
+        </summary>
+
+        <p>
+          Yes, we handle office and commercial
+          shifting requirements.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Do you provide services outside Prayagraj?
+        </summary>
+
+        <p>
+          Yes, we offer local and domestic transportation
+          services across India.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          How can I get a quotation?
+        </summary>
+
+        <p>
+          Use the Free Quote form or contact us directly
+          by phone or WhatsApp.
+        </p>
+
+      </details>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FINAL QUOTE -->
+<section class="quote">
+
+  <div class="quote-inner">
+
+    <div class="mark">
+      “
+    </div>
+
+    <h2>
+      Reliable Moving & Shifting Services
+    </h2>
+
+    <p>
+      We provide professional and reliable moving
+      services across India at affordable prices.
+    </p>
+
+    <p style="margin-top:18px">
+
+      🏠 Home Shifting
+      &nbsp; | &nbsp;
+
+      🏢 Office & Commercial Shifting
+      &nbsp; | &nbsp;
+
+      📦 Professional Packing & Unpacking
+      &nbsp; | &nbsp;
+
+      🚚 Loading & Unloading
+      &nbsp; | &nbsp;
+
+      🚛 Local & Domestic Transportation
+
+    </p>
+
+    <p style="margin-top:20px">
+
+      Our goal is to provide
+      <strong>
+        safe, timely, and hassle-free moving services
+      </strong>
+      while ensuring complete customer satisfaction.
+
+    </p>
+
+    <p style="margin-top:12px">
+
+      <strong>
+        Your belongings are handled with care—
+        just like our own. ❤️
+      </strong>
+
+    </p>
+
+    <p style="margin-top:18px;font-weight:800">
+
+      ✨ Quality Service |
+      Affordable Prices |
+      Customer Satisfaction
+
+    </p>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+
+  <div class="container">
+
+    © 2026
+    <strong>
+      Adarsh Packers & Movers
+    </strong>
+    — All Rights Reserved.
+
+  </div>
+
+</footer>
+
+
+<!-- FLOATING CALL & WHATSAPP -->
+<div class="float">
+
+  <a
+    class="call"
+    href="tel:+918299354507"
+    title="Call Adarsh Packers & Movers"
+  >
+    ☎
+  </a>
+
+
+  <a
+    class="wa"
+    href="https://wa.me/918299354507"
+    target="_blank"
+    title="WhatsApp Adarsh Packers & Movers"
+  >
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</div>
+
+
+<!-- WHATSAPP FORM SCRIPT -->
+<script>
+
+function sendQuote(e) {
+
+    e.preventDefault();
+
+
+    /* =========================
+       GET FORM INFORMATION
+       ========================= */
+
+    const name =
+        document.getElementById("qname").value.trim();
+
+    const phone =
+        document.getElementById("qphone").value.trim();
+
+    const from =
+        document.getElementById("qfrom").value.trim();
+
+    const to =
+        document.getElementById("qto").value.trim();
+
+    const service =
+        document.getElementById("qservice").value;
+
+    const date =
+        document.getElementById("qdate").value;
+
+    const details =
+        document.getElementById("qdetails").value.trim();
+
+
+    /* =========================
+       FORMAT DATE
+       ========================= */
+
+    let movingDate = "Not Specified";
+
+
+    if (date) {
+
+        const dateObj =
+            new Date(date + "T00:00:00");
+
+
+        movingDate =
+            dateObj.toLocaleDateString(
+                "en-IN",
+                {
+                    day: "2-digit",
+                    month: "2-digit",
+                    year: "numeric"
+                }
+            );
+
+    }
+
+
+    /* =========================
+       CREATE WHATSAPP MESSAGE
+       ========================= */
+
+    const message =
+`🚚 ADARSH PACKERS & MOVERS
+━━━━━━━━━━━━━━━━━━━━
+
+📋 NEW MOVING ENQUIRY
+
+👤 CUSTOMER DETAILS
+Name: ${name}
+Mobile: ${phone}
+
+📦 MOVING DETAILS
+Moving From: ${from}
+Moving To: ${to}
+Service Required: ${service}
+Preferred Moving Date: ${movingDate}
+
+📝 ADDITIONAL REQUIREMENTS
+${details || "Not Specified"}
+
+━━━━━━━━━━━━━━━━━━━━
+📞 Please contact me for quotation.
+
+Thank You
+ADARSH PACKERS & MOVERS`;
+
+
+    /* =========================
+       WHATSAPP NUMBER
+       ========================= */
+
+    const whatsappNumber =
+        "918299354507";
+
+
+    /* =========================
+       CREATE WHATSAPP URL
+       ========================= */
+
+    const whatsappURL =
+        "https://wa.me/" +
+        whatsappNumber +
+        "?text=" +
+        encodeURIComponent(message);
+
+
+    /* =========================
+       OPEN WHATSAPP
+       ========================= */
+
+    window.open(
+        whatsappURL,
+        "_blank"
+    );
+
+}
+
+</script>
+
+</body>
+</html>
